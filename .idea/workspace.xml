@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f5a6007-cc66-44aa-b8ac-90d6bf1e0bec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/AllContactsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/AuthRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/AuthResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/ContactDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/ContactSuccessDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/ErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/httpclient/GetAllContactsHttpclientTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/httpclient/LoginHttpClientTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/okhttp/AddContactOkhttpTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/okhttp/GetAllContactsOkhttpTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/okhttp/LoginOKHttpTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2j6i4Hg2txGGsfp51SXvPrbtxod" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AddContactOkhttpTests.addContactSuccessTest.executor": "Run",
+    "TestNG.GetAllContactsHttpclientTests.getAllContactWrongTest.executor": "Run",
+    "TestNG.GetAllContactsHttpclientTests.getAllContactsSuccessTest.executor": "Run",
+    "TestNG.GetAllContactsOkhttpTests.getAllContactsSuccessTest.executor": "Run",
+    "TestNG.GetAllContactsOkhttpTests.getAllContactsWithWrongTokenTest.executor": "Run",
+    "TestNG.LoginHttpClientTests.loginSuccessTest.executor": "Run",
+    "TestNG.LoginHttpClientTests.loginSuccessTestWithDTO.executor": "Run",
+    "TestNG.LoginHttpClientTests.loginerrorTestWithDTO.executor": "Run",
+    "TestNG.LoginOKHttpTests.loginSuccessTest.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Tools/gradle-8.8",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.phonebook.okhttp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AddContactOkhttpTests.addContactSuccessTest">
+    <configuration name="AddContactOkhttpTests.addContactSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PhonebookAPI.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phonebook.okhttp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.phonebook.okhttp" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.okhttp.AddContactOkhttpTests" />
+      <option name="METHOD_NAME" value="addContactSuccessTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllContactsHttpclientTests.getAllContactWrongTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PhonebookAPI.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phonebook.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.phonebook.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.httpclient.GetAllContactsHttpclientTests" />
+      <option name="METHOD_NAME" value="getAllContactWrongTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllContactsHttpclientTests.getAllContactsSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PhonebookAPI.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phonebook.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.phonebook.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.httpclient.GetAllContactsHttpclientTests" />
+      <option name="METHOD_NAME" value="getAllContactsSuccessTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllContactsOkhttpTests.getAllContactsSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PhonebookAPI.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phonebook.okhttp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.phonebook.okhttp" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.okhttp.GetAllContactsOkhttpTests" />
+      <option name="METHOD_NAME" value="getAllContactsSuccessTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginOKHttpTests.loginSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PhonebookAPI.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phonebook.okhttp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.phonebook.okhttp" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.okhttp.LoginOKHttpTests" />
+      <option name="METHOD_NAME" value="loginSuccessTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddContactOkhttpTests.addContactSuccessTest" />
+        <item itemvalue="TestNG.GetAllContactsOkhttpTests.getAllContactsSuccessTest" />
+        <item itemvalue="TestNG.LoginOKHttpTests.loginSuccessTest" />
+        <item itemvalue="TestNG.GetAllContactsHttpclientTests.getAllContactWrongTest" />
+        <item itemvalue="TestNG.GetAllContactsHttpclientTests.getAllContactsSuccessTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-semeru-11.0.22-e1d2075fd9a7-24488771" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f5a6007-cc66-44aa-b8ac-90d6bf1e0bec" name="Changes" comment="" />
+      <created>1720713740671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720713740671</updated>
+    </task>
+    <servers />
+  </component>
+</project>
