@@ -5,29 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f5a6007-cc66-44aa-b8ac-90d6bf1e0bec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/AllContactsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/AuthRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/AuthResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/ContactDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/ContactSuccessDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/dto/ErrorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/httpclient/GetAllContactsHttpclientTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/httpclient/LoginHttpClientTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/okhttp/AddContactOkhttpTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/okhttp/GetAllContactsOkhttpTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/okhttp/LoginOKHttpTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/restAssured/AddContactTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/restAssured/DeleteAllContactTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/restAssured/DeleteContactByIdTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/restAssured/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/restAssured/PutContactsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/restAssured/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +49,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AddContactOkhttpTests.addContactSuccessTest.executor": "Run",
+    "TestNG.AddContactTests.addContactSuccessTest.executor": "Run",
+    "TestNG.AddContactTests.addContactWithInvalidPhone.executor": "Run",
+    "TestNG.AddContactTests.addContactWithoutName.executor": "Run",
+    "TestNG.DeleteAllContactTests.deleteAllContactsSuccessTest.executor": "Run",
+    "TestNG.DeleteContactByIdTests.deleteContactByIdSuccessTEst.executor": "Run",
+    "TestNG.DeleteContactByIdTests.deleteContactByWrongIdTest.executor": "Run",
     "TestNG.GetAllContactsHttpclientTests.getAllContactWrongTest.executor": "Run",
     "TestNG.GetAllContactsHttpclientTests.getAllContactsSuccessTest.executor": "Run",
     "TestNG.GetAllContactsOkhttpTests.getAllContactsSuccessTest.executor": "Run",
@@ -72,6 +63,14 @@
     "TestNG.LoginHttpClientTests.loginSuccessTestWithDTO.executor": "Run",
     "TestNG.LoginHttpClientTests.loginerrorTestWithDTO.executor": "Run",
     "TestNG.LoginOKHttpTests.loginSuccessTest.executor": "Run",
+    "TestNG.LoginTests.loginSuccessTest.executor": "Run",
+    "TestNG.LoginTests.loginSuccessTest2.executor": "Run",
+    "TestNG.LoginTests.loginWrongPasswordPerfectTest.executor": "Run",
+    "TestNG.LoginTests.loginWrongPasswordTest.executor": "Run",
+    "TestNG.PutContactsTests.updateContactDifferentCitySuccessTest.executor": "Run",
+    "TestNG.PutContactsTests.updateContactInvalidFormatError.executor": "Run",
+    "TestNG.PutContactsTests.updateContactNotFoundTest.executor": "Run",
+    "TestNG.PutContactsTests.updateContactUnauthorizedTest.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Tools/gradle-8.8",
@@ -83,17 +82,17 @@
       <recent name="com.phonebook.okhttp" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddContactOkhttpTests.addContactSuccessTest">
-    <configuration name="AddContactOkhttpTests.addContactSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PutContactsTests.updateContactNotFoundTest">
+    <configuration name="AddContactTests.addContactSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PhonebookAPI.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.okhttp.*" />
+          <option name="PATTERN" value="com.phonebook.restAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.phonebook.okhttp" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.okhttp.AddContactOkhttpTests" />
+      <option name="PACKAGE_NAME" value="com.phonebook.restAssured" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.restAssured.AddContactTests" />
       <option name="METHOD_NAME" value="addContactSuccessTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -102,17 +101,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllContactsHttpclientTests.getAllContactWrongTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PutContactsTests.updateContactDifferentCitySuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PhonebookAPI.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.httpclient.*" />
+          <option name="PATTERN" value="com.phonebook.restAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.phonebook.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.httpclient.GetAllContactsHttpclientTests" />
-      <option name="METHOD_NAME" value="getAllContactWrongTest" />
+      <option name="PACKAGE_NAME" value="com.phonebook.restAssured" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.restAssured.PutContactsTests" />
+      <option name="METHOD_NAME" value="updateContactDifferentCitySuccessTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,17 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllContactsHttpclientTests.getAllContactsSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PutContactsTests.updateContactInvalidFormatError" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PhonebookAPI.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.httpclient.*" />
+          <option name="PATTERN" value="com.phonebook.restAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.phonebook.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.httpclient.GetAllContactsHttpclientTests" />
-      <option name="METHOD_NAME" value="getAllContactsSuccessTest" />
+      <option name="PACKAGE_NAME" value="com.phonebook.restAssured" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.restAssured.PutContactsTests" />
+      <option name="METHOD_NAME" value="updateContactInvalidFormatError" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,17 +137,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllContactsOkhttpTests.getAllContactsSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PutContactsTests.updateContactNotFoundTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PhonebookAPI.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.okhttp.*" />
+          <option name="PATTERN" value="com.phonebook.restAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.phonebook.okhttp" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.okhttp.GetAllContactsOkhttpTests" />
-      <option name="METHOD_NAME" value="getAllContactsSuccessTest" />
+      <option name="PACKAGE_NAME" value="com.phonebook.restAssured" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.restAssured.PutContactsTests" />
+      <option name="METHOD_NAME" value="updateContactNotFoundTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,17 +155,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginOKHttpTests.loginSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PutContactsTests.updateContactUnauthorizedTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PhonebookAPI.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.okhttp.*" />
+          <option name="PATTERN" value="com.phonebook.restAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.phonebook.okhttp" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.okhttp.LoginOKHttpTests" />
-      <option name="METHOD_NAME" value="loginSuccessTest" />
+      <option name="PACKAGE_NAME" value="com.phonebook.restAssured" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.restAssured.PutContactsTests" />
+      <option name="METHOD_NAME" value="updateContactUnauthorizedTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddContactOkhttpTests.addContactSuccessTest" />
-        <item itemvalue="TestNG.GetAllContactsOkhttpTests.getAllContactsSuccessTest" />
-        <item itemvalue="TestNG.LoginOKHttpTests.loginSuccessTest" />
-        <item itemvalue="TestNG.GetAllContactsHttpclientTests.getAllContactWrongTest" />
-        <item itemvalue="TestNG.GetAllContactsHttpclientTests.getAllContactsSuccessTest" />
+        <item itemvalue="TestNG.PutContactsTests.updateContactNotFoundTest" />
+        <item itemvalue="TestNG.PutContactsTests.updateContactInvalidFormatError" />
+        <item itemvalue="TestNG.PutContactsTests.updateContactUnauthorizedTest" />
+        <item itemvalue="TestNG.PutContactsTests.updateContactDifferentCitySuccessTest" />
+        <item itemvalue="TestNG.AddContactTests.addContactSuccessTest" />
       </list>
     </recent_temporary>
   </component>
